@@ -73,6 +73,7 @@ body {
 
 .notes__small-body {
   padding: 0 10px;
+  word-break: break-word;
 }
 
 .notes__small-updated {
