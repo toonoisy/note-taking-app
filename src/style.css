@@ -4,7 +4,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  height: 100%;
 }
 
 html,
@@ -105,4 +106,14 @@ body {
   line-height: 1.5;
   margin-top: 2em;
   resize: none;
+}
+
+.notes__ops {
+  text-align: right;
+}
+
+.notes__save,
+.notes__del {
+  margin-left: 1em;
+  cursor: pointer;
 }
