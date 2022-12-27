@@ -115,6 +115,20 @@ body {
 
 .notes__save,
 .notes__del {
-  margin-left: 1em;
   cursor: pointer;
+}
+
+.notes__save {
+  margin-right: 1em;
+}
+
+.notes__template,
+.notes__import,
+.notes__export {
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+.notes__import {
+  width: 60%;
 }

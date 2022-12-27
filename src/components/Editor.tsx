@@ -31,8 +31,8 @@ const Editor = (props: EditorProps) => {
   return (
     <div className="notes__preview">
       <div className="notes__ops">
-        <button className="notes__save" onClick={handleNoteEdit}>💾</button>
-        <button className="notes__del" onClick={() => { onNoteDelete(activeNote.id) }}>🗑</button>
+        <button className="notes__save" onClick={handleNoteEdit}>保存 💾</button>
+        <button className="notes__del" onClick={() => { onNoteDelete(activeNote.id) }}>删除 🗑</button>
       </div>
       <input ref={titleRef} className="notes__title" type="text" placeholder="新笔记..." />
       <textarea ref={bodyRef} className="notes__body" placeholder="编辑笔记..." />

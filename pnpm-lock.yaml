@@ -1,18 +1,24 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/file-saver': ^2.0.5
   '@types/react': ^18.0.26
   '@types/react-dom': ^18.0.10
+  file-saver: ^2.0.5
   react: ^18.2.0
   react-dom: ^18.2.0
   typescript: 4.7.4
   vite: 3.0.4
+  xml-js: ^1.6.11
 
 dependencies:
+  file-saver: registry.npmmirror.com/file-saver/2.0.5
   react: registry.npmmirror.com/react/18.2.0
   react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
+  xml-js: registry.npmmirror.com/xml-js/1.6.11
 
 devDependencies:
+  '@types/file-saver': registry.npmmirror.com/@types/file-saver/2.0.5
   '@types/react': registry.npmmirror.com/@types/react/18.0.26
   '@types/react-dom': registry.npmmirror.com/@types/react-dom/18.0.10
   typescript: 4.7.4
@@ -146,6 +152,12 @@ packages:
       rollup: 2.77.2
     optionalDependencies:
       fsevents: registry.npmmirror.com/fsevents/2.3.2
+    dev: true
+
+  registry.npmmirror.com/@types/file-saver/2.0.5:
+    resolution: {integrity: sha512-zv9kNf3keYegP5oThGLaPk8E081DFDuwfqjtiTzm6PoxChdJ1raSuADf2YGCVIyrSynLrgc8JWv296s7Q7pQSQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/file-saver/-/file-saver-2.0.5.tgz}
+    name: '@types/file-saver'
+    version: 2.0.5
     dev: true
 
   registry.npmmirror.com/@types/prop-types/15.7.5:
@@ -404,6 +416,12 @@ packages:
     dev: true
     optional: true
 
+  registry.npmmirror.com/file-saver/2.0.5:
+    resolution: {integrity: sha512-P9bmyZ3h/PRG+Nzga+rbdI4OEpNDzAVyy74uVO9ATgzLK6VtAsYybF/+TOCvrc0MO793d6+42lLyZTw7/ArVzA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/file-saver/-/file-saver-2.0.5.tgz}
+    name: file-saver
+    version: 2.0.5
+    dev: false
+
   registry.npmmirror.com/fsevents/2.3.2:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/fsevents/-/fsevents-2.3.2.tgz}
     name: fsevents
@@ -451,10 +469,25 @@ packages:
       loose-envify: registry.npmmirror.com/loose-envify/1.4.0
     dev: false
 
+  registry.npmmirror.com/sax/1.2.4:
+    resolution: {integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/sax/-/sax-1.2.4.tgz}
+    name: sax
+    version: 1.2.4
+    dev: false
+
   registry.npmmirror.com/scheduler/0.23.0:
     resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/scheduler/-/scheduler-0.23.0.tgz}
     name: scheduler
     version: 0.23.0
     dependencies:
       loose-envify: registry.npmmirror.com/loose-envify/1.4.0
+    dev: false
+
+  registry.npmmirror.com/xml-js/1.6.11:
+    resolution: {integrity: sha512-7rVi2KMfwfWFl+GpPg6m80IVMWXLRjO+PxTq7V2CDhoGak0wzYzFgUY2m4XJ47OGdXd8eLE8EmwfAmdjw7lC1g==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/xml-js/-/xml-js-1.6.11.tgz}
+    name: xml-js
+    version: 1.6.11
+    hasBin: true
+    dependencies:
+      sax: registry.npmmirror.com/sax/1.2.4
     dev: false

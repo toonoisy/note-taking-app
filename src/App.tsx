@@ -9,10 +9,10 @@ const App = () => {
 
   const onNoteAdd = () => {
     const newNote = {
-      id: Math.floor(Math.random() * 1000000),
+      id: -1,
       title: "新建笔记",
       body: "开始记录...",
-      updated: new Date().toISOString()
+      updated: ''
     };
 
     NotesAPI.saveNote(newNote);
@@ -51,6 +51,7 @@ const App = () => {
         notes={notes}
         onNoteAdd={onNoteAdd}
         onNoteSelect={onNoteSelect}
+        _refreshNotes={_refreshNotes}
       />
       {activeNote &&
         <Editor
